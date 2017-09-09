@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>Github Pages 上線練習</title>
+    <!-- kyosei-bootstrap.min.css -->
+    <link rel="stylesheet" href="kyosei-bootstrap-1.1.2/dist/css/kyosei-bootstrap.min.css">
+    <!-- font-awesome.min.css -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- jquery.min.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- bootstrap.min.js -->
+    <script src="kyosei-bootstrap-1.1.2/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- 導覽列 navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-list">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Github Pages 上線練習</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar-list">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://git-scm.com/" target="_blank">Git</a></li>
+                    <li><a href="https://github.com/" target="_blank">Github</a></li>
+                    <li><a href="https://hackmd.io/s/HJT2qi7sx" target="_blank">指令提示</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 導覽列 navbar end -->
+    <!-- header -->
+    <header class="jumbotron jumbotron-inverse">
+        <div class="container">
+            <div class="col-sm-8 col-sm-offset-2 text-center">
+                <h2>Github Pages 上線練習</h2>
+                <p>練習透過Git指令將此網頁專案上架到你的Github中</p>
+                <p>執行上若是卡關？請看提示</p>
+                <a href="https://hackmd.io/s/HJT2qi7sx" class="btn btn-primary" target="_blank">點我看指令提示</a>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- flow-section -->
+    <section id="flow-section">
+        <div class="container">
+            <div class="section-title text-center">
+                <h1>上線流程要點</h1>
+                <p class="text-muted">可依循以下步驟要點進行</p>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    <h3>環境設定</h3>
+                    <div class="icon text-center">
+                        <i class="fa fa-github fa-5x" aria-hidden="true"></i>
+                    </div>
+                    <p>下載<a href="https://git-scm.com/" target="_blank">Git</a>並安裝到你的電腦內，並開啟Git色彩設定，且讓Git記住你的<a href="https://github.com/"
+                            target="_blank">Github</a>帳號與Email。</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <h3>透過指令上線</h3>
+                    <div class="icon text-center">
+                        <i class="fa fa-code-fork fa-5x" aria-hidden="true"></i>
+                    </div>
+                    <p>在你的Github中建立一個新的<a href="https://github.com/new" target="_blank">Repository</a>，透過命令列工具移動進入專案資料夾，並透過
+                        <a
+                            href="">指令</a>將網頁專案Push至此Github Repository內。</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <h3>設定Github Pages</h3>
+                    <div class="icon text-center">
+                        <i class="fa fa-rocket fa-5x" aria-hidden="true"></i>
+                    </div>
+                    <p>待網頁專案確定上傳至Github Repository內，在Github Repository的頁面裡的【Settings】設定Github Pages上線。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- flow-section end -->
+    <!-- footer -->
+    <footer class="footer footer-inverse">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h3>相關連結</h3>
+                    <ul class="footer-list">
+                        <li><a href="https://github.com/" target="_blank">Github</a></li>
+                        <li><a href="https://git-scm.com/" target="_blank">Git</a></li>
+                        <li><a href="https://hackmd.io/s/HJT2qi7sx" target="_blank">指令提示</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-footer">
+            <div class="container">
+                <p class="text-center">&copy;Copyright example</p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+</body>
+
+</html>
